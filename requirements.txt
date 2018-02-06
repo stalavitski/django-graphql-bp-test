@@ -1,1 +1,1 @@
-django_graphql_bp>=0.0.1
+django_graphql_bp==1.1.1
