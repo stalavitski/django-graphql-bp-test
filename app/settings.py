@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_graphql_bp',
+    'django_graphql_bp.article',
     'django_graphql_bp.user',
     'graphene_django'
 ]

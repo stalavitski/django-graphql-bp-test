@@ -1,12 +1,8 @@
-from app.graphql.api import schema
 from django_graphql_bp.user.tests import *
-from graphene import Schema
+from django_graphql_bp.article.tests import *
 
 
 class GraphqlTestCase(cases.OperationTestCase):
-    def get_schema(self) -> Schema:
-        return schema
-
     def setUp(self):
         super(GraphqlTestCase, self).setUp()
 
